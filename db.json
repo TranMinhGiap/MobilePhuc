@@ -1,0 +1,528 @@
+{
+  "users": [
+    {
+      "id": "324a",
+      "fullName": "giap",
+      "email": "Demo@123",
+      "password": "123",
+      "address": {
+        "name": "Giáp ",
+        "addressDetail": "Thái Bình",
+        "city": "Hà nội",
+        "country": "Việt Nam",
+        "phone": "0396434223"
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Classic Burger",
+      "price": 5.99,
+      "image": "https://th.bing.com/th/id/OIP.gQcbYDtWPxumXbFt15EuwwHaEK?w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Burgers",
+      "description": "Juicy beef patty with lettuce, tomato, and cheese.",
+      "quantity": 100,
+      "options": [
+        "Add Cheese",
+        "Add Bacon",
+        "No Onion"
+      ],
+      "preparationTime": "15 mins"
+    },
+    {
+      "id": "2",
+      "title": "Margherita Pizza",
+      "price": 8.99,
+      "image": "https://th.bing.com/th/id/OIP.4925IGh0pykOKRzrFvTGEwHaHa?w=249&h=249&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Pizza",
+      "description": "Fresh tomato, mozzarella, and basil.",
+      "quantity": 50,
+      "options": [
+        "Extra Cheese",
+        "Add Olives"
+      ],
+      "preparationTime": "20 mins"
+    },
+    {
+      "id": "3",
+      "title": "Coca Cola",
+      "price": 1.49,
+      "image": "https://th.bing.com/th/id/OIP.tHq22g8XkvnR-wg1SOlEKgHaFQ?w=296&h=210&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Drinks",
+      "description": "Refreshing cold drink served with ice.",
+      "quantity": 200,
+      "options": [
+        "No Ice",
+        "Lemon Slice",
+        "Chilled"
+      ],
+      "preparationTime": "2 mins"
+    },
+    {
+      "id": "4",
+      "title": "Chocolate Cake",
+      "price": 4.5,
+      "image": "https://th.bing.com/th/id/OIP.xJTV7rqQG117JD3wUhhXXQHaLH?w=204&h=306&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Desserts",
+      "description": "Rich and moist chocolate layered cake.",
+      "quantity": 50,
+      "options": [
+        "Extra Cream",
+        "With Ice Cream",
+        "No Topping"
+      ],
+      "preparationTime": "10 mins"
+    },
+    {
+      "id": "5",
+      "title": "Greek Salad",
+      "price": 6,
+      "image": "https://th.bing.com/th/id/OIP.2h8xUtj3J4lSKOmS3LEF0gHaEK?w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Salads",
+      "description": "Fresh veggies with feta cheese and olives.",
+      "quantity": 70,
+      "options": [
+        "No Onion",
+        "Extra Cheese",
+        "Add Chicken"
+      ],
+      "preparationTime": "8 mins"
+    },
+    {
+      "id": "6",
+      "title": "French Fries",
+      "price": 2.99,
+      "image": "https://th.bing.com/th/id/OIP.stwsSxhWmcCYODdpEaugvgHaHa?w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Fries",
+      "description": "Crispy golden fries served with ketchup.",
+      "quantity": 120,
+      "options": [
+        "Add Cheese",
+        "Add Chili",
+        "Extra Salt"
+      ],
+      "preparationTime": "5 mins"
+    },
+    {
+      "id": "7",
+      "title": "Chicken Wrap",
+      "price": 6.49,
+      "image": "https://th.bing.com/th/id/OIP.oX0736wA6HDYSgo5S3XLNAHaLG?w=204&h=306&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Wraps",
+      "description": "Grilled chicken with lettuce and sauce wrapped in flatbread.",
+      "quantity": 90,
+      "options": [
+        "Add Cheese",
+        "Spicy Sauce",
+        "No Lettuce"
+      ],
+      "preparationTime": "12 mins"
+    },
+    {
+      "id": "8",
+      "title": "Veggie Burger",
+      "price": 5.5,
+      "image": "https://th.bing.com/th/id/OIP.mCUG88hVQotiSxdyXb847wHaEo?w=316&h=197&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Burgers",
+      "description": "Plant-based patty with fresh veggies and vegan mayo.",
+      "quantity": 85,
+      "options": [
+        "No Mayo",
+        "Add Avocado",
+        "Whole Wheat Bun"
+      ],
+      "preparationTime": "14 mins"
+    },
+    {
+      "id": "9",
+      "title": "Pepperoni Pizza",
+      "price": 8.99,
+      "image": "https://th.bing.com/th/id/OIP._sxsvdAkU7C2mL3-cx1xJAHaFj?w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Pizzas",
+      "description": "Classic pepperoni with cheese and tomato sauce.",
+      "quantity": 60,
+      "options": [
+        "Extra Pepperoni",
+        "Stuffed Crust",
+        "Gluten-Free Base"
+      ],
+      "preparationTime": "20 mins"
+    },
+    {
+      "id": "10",
+      "title": "Iced Tea",
+      "price": 1.99,
+      "image": "https://th.bing.com/th/id/OIP.jmiUH6J1sjkl1pETV5yURAHaE8?w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Drinks",
+      "description": "Cold brewed tea served with ice.",
+      "quantity": 150,
+      "options": [
+        "Lemon",
+        "Mint",
+        "No Sugar"
+      ],
+      "preparationTime": "3 mins"
+    },
+    {
+      "id": "11",
+      "title": "Vanilla Ice Cream",
+      "price": 3.25,
+      "image": "https://th.bing.com/th/id/OIP.UkQY7juAgJAksB4_5pEZkQHaHa?w=249&h=249&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Desserts",
+      "description": "Creamy vanilla flavored ice cream.",
+      "quantity": 100,
+      "options": [
+        "Chocolate Syrup",
+        "Sprinkles",
+        "Cone or Cup"
+      ],
+      "preparationTime": "5 mins"
+    },
+    {
+      "id": "12",
+      "title": "Caesar Salad",
+      "price": 5.99,
+      "image": "https://th.bing.com/th/id/OIP.8UagT3WWGxruvIOqJTCPeQHaE8?w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Salads",
+      "description": "Crispy romaine with Caesar dressing and croutons.",
+      "quantity": 65,
+      "options": [
+        "Add Chicken",
+        "No Dressing",
+        "Extra Croutons"
+      ],
+      "preparationTime": "8 mins"
+    },
+    {
+      "id": "13",
+      "title": "Spicy Fries",
+      "price": 3.25,
+      "image": "https://www.bing.com/th/id/OIP.hjrTnotLiAr3J9Wbk5XaCAHaEL?w=282&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Fries",
+      "description": "Fries tossed with spicy seasoning.",
+      "quantity": 110,
+      "options": [
+        "Add Cheese",
+        "Ranch Dip",
+        "Extra Spicy"
+      ],
+      "preparationTime": "6 mins"
+    },
+    {
+      "id": "14",
+      "title": "Falafel Wrap",
+      "price": 5.99,
+      "image": "https://th.bing.com/th/id/OIP.vND3N5piCYi0H0sTma0f4AHaHa?w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Wraps",
+      "description": "Crunchy falafel balls with tahini and veggies.",
+      "quantity": 75,
+      "options": [
+        "Add Hummus",
+        "Spicy Sauce",
+        "No Tomato"
+      ],
+      "preparationTime": "12 mins"
+    },
+    {
+      "id": "15",
+      "title": "Bacon Burger",
+      "price": 6.99,
+      "image": "https://th.bing.com/th/id/OIP.MyP8LXTfLqyMeubDDVxrTAHaFj?w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Burgers",
+      "description": "Beef patty topped with crispy bacon and cheese.",
+      "quantity": 90,
+      "options": [
+        "Extra Bacon",
+        "No Cheese",
+        "BBQ Sauce"
+      ],
+      "preparationTime": "16 mins"
+    },
+    {
+      "id": "16",
+      "title": "BBQ Chicken Pizza",
+      "price": 9.5,
+      "image": "https://th.bing.com/th/id/OIP.DFBdtlszPpuTwBfNdN2rmQHaLH?w=204&h=306&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Pizzas",
+      "description": "Pizza topped with BBQ chicken, red onion, and cilantro.",
+      "quantity": 55,
+      "options": [
+        "Extra Sauce",
+        "Add Jalapeño",
+        "No Onion"
+      ],
+      "preparationTime": "20 mins"
+    },
+    {
+      "id": "17",
+      "title": "Orange Juice",
+      "price": 2.25,
+      "image": "https://th.bing.com/th/id/OIP.jqxR_QrdtXQR6kfXBUHrBAHaFD?w=302&h=206&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Drinks",
+      "description": "Freshly squeezed orange juice.",
+      "quantity": 130,
+      "options": [
+        "No Ice",
+        "With Pulp",
+        "Chilled"
+      ],
+      "preparationTime": "3 mins"
+    },
+    {
+      "id": "18",
+      "title": "Brownie",
+      "price": 3.75,
+      "image": "https://th.bing.com/th/id/OIP.1gQN-mxQDxDHVfHpC34U2QHaFX?w=293&h=212&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Desserts",
+      "description": "Fudgy chocolate brownie with crunchy edges.",
+      "quantity": 60,
+      "options": [
+        "Add Ice Cream",
+        "No Nuts",
+        "Extra Chocolate"
+      ],
+      "preparationTime": "6 mins"
+    },
+    {
+      "id": "19",
+      "title": "Fruit Salad",
+      "price": 4.99,
+      "image": "https://th.bing.com/th/id/OIP.MzTNkatgVf81xWNMu7aLDQHaE8?w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Salads",
+      "description": "Seasonal fruits mixed fresh daily.",
+      "quantity": 70,
+      "options": [
+        "Add Honey",
+        "Add Yogurt",
+        "No Banana"
+      ],
+      "preparationTime": "7 mins"
+    },
+    {
+      "id": "20",
+      "title": "Cheese Fries",
+      "price": 3.99,
+      "image": "https://th.bing.com/th/id/OIP.zW9BBavRYiHmv4zoEHl2mQHaJQ?w=223&h=279&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Fries",
+      "description": "Fries topped with melted cheese.",
+      "quantity": 100,
+      "options": [
+        "Extra Cheese",
+        "Bacon Bits",
+        "No Salt"
+      ],
+      "preparationTime": "5 mins"
+    },
+    {
+      "id": "21",
+      "title": "Beef Wrap",
+      "price": 6.75,
+      "image": "https://th.bing.com/th/id/OIP.Szdfs7OechYSSfLDc4JQaQHaHa?w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Wraps",
+      "description": "Grilled beef slices with sauces and veggies.",
+      "quantity": 80,
+      "options": [
+        "Extra Sauce",
+        "No Onion",
+        "Whole Wheat"
+      ],
+      "preparationTime": "12 mins"
+    },
+    {
+      "id": "22",
+      "title": "Double Cheeseburger",
+      "price": 7.5,
+      "image": "https://th.bing.com/th/id/OIP.6BRkukPOxgjJM329v-zBhQHaGA?w=277&h=225&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Burgers",
+      "description": "Two juicy patties with double cheese.",
+      "quantity": 85,
+      "options": [
+        "Extra Patty",
+        "Add Pickles",
+        "No Ketchup"
+      ],
+      "preparationTime": "17 mins"
+    },
+    {
+      "id": "23",
+      "title": "Margherita Pizza",
+      "price": 7.25,
+      "image": "https://th.bing.com/th/id/OIP.WYsEpZul-2Eqgg9TRIVlvAHaJQ?w=223&h=279&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Pizzas",
+      "description": "Tomato, mozzarella, and basil on thin crust.",
+      "quantity": 65,
+      "options": [
+        "Extra Basil",
+        "Stuffed Crust",
+        "No Tomato"
+      ],
+      "preparationTime": "18 mins"
+    },
+    {
+      "id": "24",
+      "title": "Lemonade",
+      "price": 1.75,
+      "image": "https://th.bing.com/th/id/OIP.bts1WDeLrfDri0HBYvk_sgAAAA?w=275&h=197&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Drinks",
+      "description": "Zesty fresh lemonade.",
+      "quantity": 140,
+      "options": [
+        "Mint",
+        "No Ice",
+        "Less Sugar"
+      ],
+      "preparationTime": "3 mins"
+    },
+    {
+      "id": "25",
+      "title": "Ice Cream Sundae",
+      "price": 4.99,
+      "image": "https://th.bing.com/th/id/OIP.HIHVAn0PX6yxvg9xlgWYRgHaJX?w=222&h=281&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Desserts",
+      "description": "Ice cream with toppings and sauce.",
+      "quantity": 50,
+      "options": [
+        "Add Nuts",
+        "Extra Syrup",
+        "No Cherry"
+      ],
+      "preparationTime": "7 mins"
+    },
+    {
+      "id": "26",
+      "title": "Tuna Salad",
+      "price": 6.25,
+      "image": "https://th.bing.com/th/id/OIP.z6BuevB_V8H5NrryAlS9UQHaLH?w=204&h=306&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Salads",
+      "description": "Tuna mixed with veggies and light mayo.",
+      "quantity": 60,
+      "options": [
+        "No Mayo",
+        "Add Egg",
+        "Extra Veggies"
+      ],
+      "preparationTime": "9 mins"
+    },
+    {
+      "id": "27",
+      "title": "Curly Fries",
+      "price": 3.5,
+      "image": "https://th.bing.com/th/id/OIP.nD3N_bCJsDpiNdXtjKSt5AHaE8?w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Fries",
+      "description": "Seasoned curly fries with crispy crunch.",
+      "quantity": 110,
+      "options": [
+        "Add Cheese",
+        "No Salt",
+        "BBQ Dip"
+      ],
+      "preparationTime": "6 mins"
+    },
+    {
+      "id": "28",
+      "title": "Veggie Wrap",
+      "price": 5.75,
+      "image": "https://th.bing.com/th/id/OIP.W424bzijjpsaITJZmFERnAHaJ4?w=216&h=288&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Wraps",
+      "description": "Grilled veggies in a whole grain wrap.",
+      "quantity": 85,
+      "options": [
+        "Add Hummus",
+        "Spicy Sauce",
+        "No Onion"
+      ],
+      "preparationTime": "11 mins"
+    },
+    {
+      "id": "29",
+      "title": "Mushroom Burger",
+      "price": 6.25,
+      "image": "https://th.bing.com/th/id/OIP.9bs_HvAjJYV7tPLX6XSuPgHaKX?w=211&h=295&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Burgers",
+      "description": "Beef patty with sautéed mushrooms and Swiss cheese.",
+      "quantity": 90,
+      "options": [
+        "Add Bacon",
+        "No Cheese",
+        "Extra Mushrooms"
+      ],
+      "preparationTime": "16 mins"
+    },
+    {
+      "id": "30",
+      "title": "Hawaiian Pizza",
+      "price": 8.75,
+      "image": "https://th.bing.com/th/id/OIP.Mz0I9Yj0klNsyy0FORS8lQHaI6?w=227&h=274&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "category": "Pizzas",
+      "description": "Pizza with ham and pineapple on tomato base.",
+      "quantity": 55,
+      "options": [
+        "No Pineapple",
+        "Extra Cheese",
+        "Add Jalapeño"
+      ],
+      "preparationTime": "19 mins"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Burgers",
+      "logo": "https://th.bing.com/th/id/OIP.eluv5SNfCgL3g7e014nEIQHaHa?w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+    },
+    {
+      "id": "2",
+      "name": "Pizza",
+      "logo": "https://th.bing.com/th/id/OIP.OITkHTBCK1lLRGT0QW1hZgHaHa?w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+    },
+    {
+      "id": "3",
+      "name": "Drinks",
+      "logo": "https://th.bing.com/th/id/OIP.I-0FFnn3MzG16r47PYuf8gHaFH?w=300&h=207&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+    },
+    {
+      "id": "4",
+      "name": "Desserts",
+      "logo": "https://th.bing.com/th/id/OIP.Nxv3V5yGf3u4obWHjEyg5gHaHa?w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+    },
+    {
+      "id": "5",
+      "name": "Salads",
+      "logo": "https://th.bing.com/th/id/OIP.85RL92LY7GVXiynoVadozwHaH5?w=242&h=258&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+    },
+    {
+      "id": "6",
+      "name": "Fries",
+      "logo": "https://th.bing.com/th/id/OIP.y67kpobjW79QEcp_64INngHaFP?w=297&h=210&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+    },
+    {
+      "id": "7",
+      "name": "Wraps",
+      "logo": "https://th.bing.com/th/id/OIP.0X-JAgbP42D5IvOeOYBzVwHaHa?w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+    }
+  ],
+  "orders": [
+    {
+      "id": "2a00",
+      "userId": "324a",
+      "products": [
+        {
+          "productId": "1",
+          "options": [],
+          "quantity": 2
+        },
+        {
+          "productId": "2",
+          "options": [],
+          "quantity": 3
+        }
+      ],
+      "total": 40.95,
+      "date": "2025-05-10",
+      "address": "Thái Bình, Hà nội, Việt Nam"
+    }
+  ],
+  "wishlist": [],
+  "cart": []
+}
